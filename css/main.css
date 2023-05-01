@@ -86,10 +86,124 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*** Base Header - Footer Styles ***/
+
+header,
+footer {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;  
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;  
+}
+
+header nav ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;  
+}
+
+footer .social-icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons p {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*** Mobile Styles - Homepage ***/
+
+.hero-area {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*** Aside ***/
+
+aside {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/*** Features ***/
+
+.features {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.features .features-items {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; 
+}
+
+/*** Reviews ***/
+
+.reviews {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; 
+}
+
+/*** About Page ***/
+
+.mission {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contact {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/*** FAQ Page ***/
+
+.faq {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.faq .content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;  
+}
+
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+Helper classes
+========================================================================== */
 
 /*
  * Hide visually and from screen readers
