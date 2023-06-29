@@ -615,6 +615,10 @@ address {
     width: 45%;
   }
   
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+  
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -624,7 +628,7 @@ address {
     display: flex;
     justify-content: space-between;
   }
-
+  
   .contact-content h4 {
     font-size: 1.5em;
   }
@@ -641,7 +645,7 @@ address {
   .faq h2 {
     width: 100%;
   }
-
+  
   .faq h4, .faq p {
     font-size: 0.875em;
     line-height: 1.125;
@@ -657,15 +661,15 @@ address {
     header {
       padding: 15px 0;
     }
-
+    
     h2 {
       font-size: 2.25em;
     }
-
+    
     h3, h4 {
       font-size: 1.875em;
     }
-
+    
     p {
       font-size: 1.125em;
       line-height: 1.333;
@@ -676,7 +680,7 @@ address {
       font-size: 3.75em;
       width: 80%; 
     }
-
+    
     /* Aside */
     aside .content-wrapper {
       justify-content: space-around;
@@ -686,7 +690,7 @@ address {
     aside .content-wrapper .form {
       width: 30%;
     }
-
+    
     .form-description p {
       font-size: 1.125em;
     }
@@ -704,26 +708,30 @@ address {
     .reviews h2 {
       padding-bottom: 50px;
     }
-
+    
     .reviews article div {
       width: 42%;
     }
-
+    
     footer h4 {
       font-size: 1.875em;
     }
-
+    
     /*** About Page ***/
     .mission h2,
     .contact-section .content-wrapper h2 {
       font-size: 3em;
       width: 95%; 
     }
-
+    
     .contact-content h4 {
       font-size: 1.875em;
     }
     
+    .map figure {
+      padding-bottom: 37.5%;
+    }
+
     /*** FAQ Page ***/
     .faq h2 {
       font-size: 3em;
